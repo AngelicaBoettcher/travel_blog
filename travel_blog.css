@@ -1,0 +1,120 @@
+body {
+    font-family: fantasy;
+    
+    
+}
+
+header {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 120px;;
+    padding-bottom: 130px;
+}
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.all_boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
+    border: 1px solid grey;
+    padding: 70px;
+    background-color: cadetblue;
+    border-radius: 3px;
+    margin-bottom: 70px;
+    
+}
+
+.picture_city {
+    
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.cityName {
+    position: absolute;
+    top: 4px;
+    left: 20px;
+    text-shadow: blue;
+}
+.countryName {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    text-shadow: blue;
+
+}
+.traveldate {
+    position: relative;
+}
+
+
+.little_box{
+    color: white;
+    box-sizing: border-box;
+    margin: 30px 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: relative;
+    background-color: #487c7e;    
+}
+
+.little_box > div {
+    position: relative;
+}
+.little_box p {
+    padding: 5px 20px;
+}
+
+.addLocation {
+    color:white;
+    height: 35%;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction:column;
+    border: 1px solid grey;
+    background-color: cadetblue;
+    border-radius: 3px;
+    margin-bottom: 70px;
+}
+
+input, textarea {
+    width: 100%;
+    
+}
+    
+.button {
+    background-color: grey; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  @media only screen and (min-width: 600px){
+    .little_box {
+        width:40%;
+    }
+    .addLocation {
+        width:30%;
+    }
+  }
+
+  @media only screen and (min-width: 800px){
+    .little_box {
+        width: 25%;
+    }
+  }

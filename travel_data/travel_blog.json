@@ -1,0 +1,68 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "city": "Dublin",
+      "country": "Ireland",
+      "traveldateStart": "2022-04-08",
+      "traveldateEnd": "2022-04-10",
+      "description": "Beautiful city, the hiking area surrounding the city is very nice.",
+      "traveldate": "sbfdl",
+      "image": "./images/Dublin_picture.jpeg"
+    },
+    {
+      "id": 2,
+      "city": "Salzburg",
+      "country": "Austria",
+      "traveldateStart": "2022-04-08",
+      "traveldateEnd": "2022-04-10",
+      "description": "Nice old city and very famous for its Festspiele - good food everywhere",
+      "image": "./images/salzburg_picture.jpeg"
+    },
+    {
+      "id": 3,
+      "city": "London",
+      "country": "England",
+      "traveldateStart": "2022-04-08",
+      "traveldateEnd": "2022-04-10",
+      "description": "Beautiful  city, the hiking area surrounding the city is very nice.",
+      "image": "./images/london_picture.jpeg"
+    },
+    {
+      "id": 4,
+      "city": "New York",
+      "country": "USA",
+      "traveldateStart": "2022-04-08",
+      "traveldateEnd": "2022-04-10",
+      "description": "randomtext",
+      "image": "./images/newyork_picture.jpeg"
+    },
+    {
+      "id": 5,
+      "city": "Paris",
+      "country": "France",
+      "traveldateStart": "2022-04-08",
+      "traveldateEnd": "2022-04-10",
+      "description": "Beautiful city, the hiking area surrounding the city is very nice.",
+      "image": "./images/paris_picture.jpeg"
+    },
+    {
+      "id": 6,
+      "city": "Porto",
+      "country": "Portugal",
+      "traveldateStart": "2022-04-08",
+      "traveldateEnd": "2022-04-10",
+      "description": "Beautiful   city, the hiking area surrounding the city is very nice.",
+      "image": "./images/porto_picture.jpeg"
+    },
+    {
+      "image": "https://d1bvpoagx8hqbg.cloudfront.net/originals/leben-studieren-florence-italien-rommel-sofia-56343c9b76e9567994ff1f65dfe72239.jpg",
+      "city": "florenz",
+      "country": "italy",
+      "traveldateStart": "2022-04-08",
+      "traveldateEnd": "2022-04-10",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu",
+      "id": 7
+    }
+  ]
+}

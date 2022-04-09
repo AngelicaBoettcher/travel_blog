@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelicas travel blog</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="travel_blog.css">
+</head>
+
+<body>
+    <header>
+        <i data-feather="compass"></i>
+        <h1>Angelicas Travel Guide</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur labore sed veritatis, accusamus quam
+            incidunt harum!</p>
+    </header>
+
+    <main>
+        <div class="all_boxes">
+        </div>
+        <form class="addLocation">
+            <label for="newPic">Insert url of your picture here:</label>
+            <input type="text" id="newPic" name="newPic" required><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required><br>
+            <label for="country">Country:</label><br>
+            <input type="text" id="country" name="country" required><br>
+            <label for="travelStart">enter when your journey started here:</label>
+            <input type="date" id="travelStart" name="travelStart" required><br>
+            <label for="travelEnd">enter when your journey ended here:</label>
+            <input type="date" id="travelEnd" name="travelEnd" required><br>
+            <label for="description">Description:</label>
+            <textarea id="description" rows="10" cols="30" name="description" maxlength="150" required></textarea>
+            <br>
+            <input class="button" type="submit" id="btSubmit" value="Insert location">
+        </form>
+    </main>
+    <script>
+        feather.replace()
+    </script>
+    <script src="travel_blog.js"></script>
+</body>
+
+</html>
